@@ -1,5 +1,8 @@
 ## Animal is-a object look at the extra credit
 class Animal
+  def init
+    puts "im in animal"
+  end
 end
 
 ## ??
@@ -8,6 +11,10 @@ class Dog < Animal
     def initialize(name)
         ## ??
         @name = name
+        
+    end
+    def init
+      puts "im in Dog"
     end
 end
 
@@ -61,7 +68,7 @@ end
 
 ## rover is-a Dog
 rover = Dog.new("Rover")
-
+rover.init
 ## ??
 satan = Cat.new("Satan")
 
