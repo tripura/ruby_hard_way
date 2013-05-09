@@ -1,8 +1,9 @@
 people = 20
 cats = 30
 dogs = 15
+a = 10
 
-if people < cats
+if a>9
   puts "Too many cats! The world is doomed!"
 end
 
